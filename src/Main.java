@@ -64,7 +64,7 @@ public class Main {
             playAgain = in.nextLine();
 
             //Check for correct input
-            while(!playAgain.equals("Y") && !playAgain.equals("N"))
+            while(!playAgain.equalsIgnoreCase("Y") && !playAgain.equalsIgnoreCase("N"))
             {
                 System.out.print("Error, please enter Y or N: ");
                 playAgain = in.nextLine();
